@@ -1,0 +1,17 @@
+.container
+{
+    background-color: blueviolet;
+    display: grid;
+    width: 100px;
+    height: 100px;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+    grid-template-areas: 
+    "HEADER""HEADER"
+    "slider""main"
+    "slider""footer";
+}
+#A{background-color: rgb(255, 7, 7);}
+#B{background-color: rgb(255, 132, 0);}
+#C{background-color: rgb(255, 238, 0);}
+#D{background-color: rgb(13, 0, 255);}  

@@ -1,0 +1,57 @@
+p:hover{
+    color: aqua;
+    height: 230px;
+    width: 340px;
+    background-color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    text-align: right;
+}
+h1:hover{
+    background-color: blueviolet;
+    height: 200px;
+    width: 300px;
+    font-family: parchment regular;
+    font-size: 100px;
+}
+
+button:hover{
+    color:red;
+    background-color: orange;
+    border: 2px groove black;
+    font-size: 51.9px;
+    font-family: lucida handwriting;
+}
+
+a:hover{
+    color: red;
+    font-size: 20px;
+}
+a:link
+{
+    font-family: lucida handwriting;
+    color: magenta;
+}
+a:visited{
+    font-family: chiller;
+    color: orange;
+}
+a:active{
+    color: greenyellow;
+    height: 500px;
+    width: 500px;
+}
+
+p:active{
+    color: orangered;
+
+    background-color: cornflowerblue;
+}
+
+input:focus{
+    background-image: url("https://i.scdn.co/image/ab67616d00001e02e27ec71c111b88de91a51600");
+    height: 230px;
+    width: 230px;
+    text-align: left;
+    border: 20px black groove;
+}

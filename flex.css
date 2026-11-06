@@ -1,0 +1,38 @@
+div
+{
+    background-color: aqua;
+    display: flex;
+    font-size: 100px;
+    /* width: 200px; */
+    /* height: 1000px; */
+}
+
+#A{    background-color: rgb(242, 127, 11); flex-grow: 2;}
+#B{    background-color: rgb(255, 7, 7); flex-grow: 2;}
+#C{    background-color: rgb(40, 173, 255); flex-grow: 3;}
+#D{    background-color: rgb(243, 19, 243); flex-grow: 1;}
+#E{    background-color: rgb(240, 24, 161); flex-grow: 2;}
+
+.item
+{    width: 100px;
+    height: 100px;}
+
+.container
+{
+    height: 100vh;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    /* justify-content: center;  */
+    /* justify-content: flex-end; */
+    /* justify-content: space-around; */
+    /* justify-content: right; */
+    /* align-content: center; */
+    /* align-content: flex-start; */
+    /* align-content: flex-end; */
+    align-items: start;
+    /* align-items: center;*/
+    /* gap: 20px;                */
+}

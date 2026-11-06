@@ -1,0 +1,18 @@
+.container
+{
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: 100px       ;
+    grid-template-rows: 200px  200px;
+    grid-template-rows: 100px 100px;
+}
+#A{background-color: rgb(255, 7, 7);}
+#B{background-color: rgb(255, 132, 0);}
+#C{background-color: rgb(255, 238, 0);}
+#D{background-color: rgb(13, 0, 255);}  
+/* #E{background-color: rgb(173, 33, 47);}
+#F{background-color: rgb(143, 18, 31);}
+#G{background-color: rgb(173, 33, 47);}
+#H{background-color: rgb(48, 200, 65);}
+#I{background-color: rgb(44, 124, 190);}
+#J{background-color: rgb(7, 108, 135);} */

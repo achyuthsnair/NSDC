@@ -1,0 +1,48 @@
+nav {
+    background-color: black;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
+nav a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+
+nav a:hover {
+    color: yellow;
+}
+
+
+.menu {
+    position: relative;
+}
+
+
+.menu ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: black;
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+    width: 120px;
+}
+
+
+.menu:hover ul {
+    display: block;
+}
+
+
+.menu ul a {
+    padding-left: 30px;
+    font-size: 19.2px;
+}

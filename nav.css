@@ -1,0 +1,55 @@
+nav
+{
+    padding: 10px;
+    border: 1px white solid;
+    display: flex;
+    gap: 12px;
+}
+
+a:hover
+{
+    color: red;
+    font-size: 20px;
+    font-family: lucida handwriting;
+}
+a{
+    color: aqua
+}
+ul{
+    color:whitesmoke
+}
+li:hover
+{
+    color:orangered;
+    font-family: chiller;
+    font-size: 20px;
+}
+
+.menu
+{
+    position: relative;
+}
+
+.menu ul
+{
+    display: none;
+    position: absolute;
+    top: 100%;
+    /* bottom: 0%; */
+    left: 0;
+    background-color: violet ;
+    padding: 10px; /*outside*/
+    list-style: none;
+    /* width: 150px; */
+    margin: 0%;
+}
+
+.menu:hover ul
+{
+    display: block;
+}
+
+.menu ul li
+{
+    padding: 11px;
+}

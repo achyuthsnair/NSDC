@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Horizontal Navigation Bar</title>
+    <link href="nav.copy.css" rel="stylesheet">
+    <style>
+        
+        nav {
+            background-color: black;
+            width: 200px;
+            padding: 10px;
+        }
+
+     
+        nav a {
+            color: white;
+            font-size: 22px;
+            text-decoration: none;
+            display: block;
+            padding: 15px;
+        }
+
+    
+        nav a:hover {
+            background-color: gray;
+            color: yellow;
+        }
+
+      
+        .menu {
+            position: relative;
+        }
+
+        .menu ul {
+            display: none;
+            background-color: #333333;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        
+        .menu:hover ul {
+            display: block;
+        }
+
+        .menu ul a {
+            font-size: 18px;
+            padding-left: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="https://www.youtube.com/" target="_blank">YouTube</a>
+
+        <a href="https://mail.google.com/" target="_blank">Mail</a>
+
+        <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+
+
+        <div class="menu">
+            <a href="#">Categories </a>
+            <ul>
+                <li><a href="https://www.amazon.in/s?k=mobile" target="_blank">Mobile</a></li>
+                <li><a href="https://www.amazon.in/s?k=clothes" target="_blank">Clothes</a></li>
+                <li><a href="https://www.amazon.in/s?k=accessories" target="_blank">Accessories</a></li>
+                <li><a href="https://www.amazon.in/s?k=fruits" target="_blank">Fruits</a></li>
+            </ul>
+        </div>
+    </nav>
+
+</body>
+</html>

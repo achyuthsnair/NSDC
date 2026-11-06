@@ -1,0 +1,38 @@
+#id2
+{
+    border: solid rgb(200, 166, 32) 2px;
+}
+#id1
+{
+    border: groove blue 3px;
+    color: red;
+}
+
+#id3
+{
+    background-color: aquamarine;
+    border: ridge;
+
+}
+#id4
+{
+    background-image: url(https://imgs.search.brave.com/uv9TZmwKDUHykCwJODRiwTQLMLBQqQWBY3MQLuWRjDA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTgx/NjQ2MzkyNy92ZWN0/b3IvZmxvcmFsLXBh/dHRlcm4td2l0aC1o/YW5kLWRyYXduLWxl/YXZlcy5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9QUl0Rjl4/UERscWtHU2JaNnBC/cHZPcWRnNmpsQ3d1/TVZBVzJtcDlLcWcw/dz0);
+}
+
+#id5
+{
+    border-bottom: 30px purple groove;
+    border-top: 30px violet dotted;
+}
+
+#id6
+{
+    background-image: url(https://imgs.search.brave.com/KujfM9cTvKjFlHpkQHUC-8FgTdDsH2TBl2mLANQKRQw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMDQv/NDg1LzUwMC9zbWFs/bC93aW50ZXItY2hy/aXN0bWFzLXBhdHRl/cm4tc2VhbWxlc3Mt/c25vdy1zbm93ZmFs/bC1vbi1kYXJrLWJh/Y2tncm91bmQtdGVt/cGxhdGUtZm9yLXBy/aW50aW5nLW9udG8t/ZmFicmljLXdyYXBw/aW5nLXBhcGVyLWRl/c2lnbi1jaGlsZHJl/bi1zLWJhY2tncm91/bmQtZm9yLWZhYnJp/Yy10ZXh0aWxlLXdh/bGxwYXBlci1jbG90/aGluZy12ZWN0b3Iu/anBn);
+    color:antiquewhite;
+    font-size: larger;
+}
+
+body
+{
+    text-align: center;
+}

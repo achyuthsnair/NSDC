@@ -1,0 +1,44 @@
+p:active:first-letter
+{
+    color: red;
+    font-size: 200px;
+    font-family: parchment;
+}
+h1:hover:first-line
+{
+    color: orangered;
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+#a1:active:first-line
+{ color: aquamarine;}
+
+#a3::before
+{
+    content:url("C:/Users/achyu/OneDrive/Pictures/Screenshots/Screenshot 2025-11-01 152753.png");
+}
+#a3::after
+{
+    content: url("C:/Users/achyu/OneDrive/Pictures/Screenshots/Screenshot 2025-11-01 152803.png");
+    height: 120px;
+}
+
+.a5:hover:after
+{content: "\0022 \0027 \2018 \2019 \201C \201D \00AB \00BB \2026 \2022 \00B7 \00B6 \00A7";}
+
+.a5:hover:before
+{content: "\0022 \0027 \2018 \2019 \201C \201D \00AB \00BB \2026 \2022 \00B7 \00B6 \00A7";}
+
+::marker{
+    color: magenta;
+    font-family: webdings;
+    font-size: large;
+}
+
+::selection
+{
+    color: maroon;
+    background-color: orange;
+    font-family: webdings;
+}
